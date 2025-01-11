@@ -3455,6 +3455,10 @@
           "named": true
         },
         {
+          "type": "sysactualdate",
+          "named": true
+        },
+        {
           "type": "sysusername",
           "named": true
         },
@@ -4025,6 +4029,11 @@
   },
   {
     "type": "systemdate",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "sysactualdate",
     "named": true,
     "fields": {}
   },

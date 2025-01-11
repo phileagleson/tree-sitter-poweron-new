@@ -317,6 +317,7 @@ module.exports = grammar({
       caseInsensitive('suppressnewline'),
       caseInsensitive('symconnect'),
       caseInsensitive('systemdate'),
+      caseInsensitive('sysactualdate'),
       caseInsensitive('sysusername'),
       caseInsensitive('sysusernumber'),
       caseInsensitive('terminate'),
@@ -1020,6 +1021,7 @@ module.exports = grammar({
       $.stopblink,
       $.suppressnewline,
       $.systemdate,
+      $.sysactualdate,
       $.sysusername,
       $.sysusernumber,
       $.terminate,
@@ -1061,6 +1063,7 @@ module.exports = grammar({
     overdrawavailablecalc: $ => caseInsensitive('overdrawavailablecalc'),
 
     systemdate: $ => caseInsensitive('systemdate'),
+    sysactualdate: $ => caseInsensitive('sysactualdate'),
 
     hpunderline: $ => seq(
       caseInsensitive('hpunderline'),

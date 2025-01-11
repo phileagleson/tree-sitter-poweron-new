@@ -4073,6 +4073,10 @@
         },
         {
           "type": "SYMBOL",
+          "name": "sysactualdate"
+        },
+        {
+          "type": "SYMBOL",
           "name": "sysusername"
         },
         {
@@ -4206,6 +4210,10 @@
     "systemdate": {
       "type": "PATTERN",
       "value": "[sS][yY][sS][tT][eE][mM][dD][aA][tT][eE]"
+    },
+    "sysactualdate": {
+      "type": "PATTERN",
+      "value": "[sS][yY][sS][aA][cC][tT][uU][aA][lL][dD][aA][tT][eE]"
     },
     "hpunderline": {
       "type": "SEQ",
